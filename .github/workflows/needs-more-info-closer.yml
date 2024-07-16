@@ -1,7 +1,7 @@
 name: info-needed Closer
 on:
-  schedule:
-    - cron: 20 11 * * * # 4:20am Redmond
+#  schedule:
+#    - cron: 20 11 * * * # 4:20am Redmond
   repository_dispatch:
     types: [trigger-needs-more-info]
 
